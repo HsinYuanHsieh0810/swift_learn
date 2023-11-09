@@ -14,6 +14,9 @@
 		1C72B9012AFAC93400124D96 /* swift_learnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B9002AFAC93400124D96 /* swift_learnUITests.swift */; };
 		1C72B9032AFAC93400124D96 /* swift_learnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B9022AFAC93400124D96 /* swift_learnUITestsLaunchTests.swift */; };
 		1C72B9102AFACD4800124D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C72B90F2AFACD4800124D96 /* Assets.xcassets */; };
+		1C72B9152AFBC10000124D96 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B9142AFBC10000124D96 /* Location.swift */; };
+		1C72B9192AFBC47900124D96 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B9182AFBC47900124D96 /* LocationsDataService.swift */; };
+		1C72B91B2AFBD14E00124D96 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B91A2AFBD14E00124D96 /* LocationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		1C72B9002AFAC93400124D96 /* swift_learnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_learnUITests.swift; sourceTree = "<group>"; };
 		1C72B9022AFAC93400124D96 /* swift_learnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_learnUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1C72B90F2AFACD4800124D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C72B9142AFBC10000124D96 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1C72B9182AFBC47900124D96 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		1C72B91A2AFBD14E00124D96 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,11 @@
 			children = (
 				1C72B8E52AFAC93300124D96 /* swift_learnApp.swift */,
 				1C72B8E72AFAC93300124D96 /* ContentView.swift */,
+				1C72B9172AFBC44F00124D96 /* DataServices */,
+				1C72B9132AFBC0D500124D96 /* View */,
+				1C72B9122AFBC0C500124D96 /* ViewModels */,
+				1C72B9112AFBC09000124D96 /* Models */,
+				1C72B90F2AFACD4800124D96 /* Assets.xcassets */,
 				1C72B8EB2AFAC93400124D96 /* Preview Content */,
 			);
 			path = swift_learn;
@@ -104,7 +115,6 @@
 		1C72B8EB2AFAC93400124D96 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1C72B90F2AFACD4800124D96 /* Assets.xcassets */,
 				1C72B8EC2AFAC93400124D96 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -125,6 +135,37 @@
 				1C72B9022AFAC93400124D96 /* swift_learnUITestsLaunchTests.swift */,
 			);
 			path = swift_learnUITests;
+			sourceTree = "<group>";
+		};
+		1C72B9112AFBC09000124D96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C72B9142AFBC10000124D96 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C72B9122AFBC0C500124D96 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1C72B9132AFBC0D500124D96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C72B91A2AFBD14E00124D96 /* LocationsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C72B9172AFBC44F00124D96 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				1C72B9182AFBC47900124D96 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C72B9192AFBC47900124D96 /* LocationsDataService.swift in Sources */,
 				1C72B8E82AFAC93300124D96 /* ContentView.swift in Sources */,
+				1C72B91B2AFBD14E00124D96 /* LocationsView.swift in Sources */,
+				1C72B9152AFBC10000124D96 /* Location.swift in Sources */,
 				1C72B8E62AFAC93300124D96 /* swift_learnApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
