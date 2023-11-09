@@ -17,6 +17,7 @@
 		1C72B9152AFBC10000124D96 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B9142AFBC10000124D96 /* Location.swift */; };
 		1C72B9192AFBC47900124D96 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B9182AFBC47900124D96 /* LocationsDataService.swift */; };
 		1C72B91B2AFBD14E00124D96 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B91A2AFBD14E00124D96 /* LocationsView.swift */; };
+		1C72B91D2AFD43A000124D96 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B91C2AFD43A000124D96 /* LocationsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		1C72B9142AFBC10000124D96 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		1C72B9182AFBC47900124D96 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		1C72B91A2AFBD14E00124D96 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		1C72B91C2AFD43A000124D96 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		1C72B9122AFBC0C500124D96 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				1C72B91C2AFD43A000124D96 /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C72B9192AFBC47900124D96 /* LocationsDataService.swift in Sources */,
+				1C72B91D2AFD43A000124D96 /* LocationsViewModel.swift in Sources */,
 				1C72B8E82AFAC93300124D96 /* ContentView.swift in Sources */,
 				1C72B91B2AFBD14E00124D96 /* LocationsView.swift in Sources */,
 				1C72B9152AFBC10000124D96 /* Location.swift in Sources */,
