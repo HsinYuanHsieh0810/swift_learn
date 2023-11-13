@@ -24,6 +24,19 @@ struct LocationsView: View {
                 header
                     .padding()
                 Spacer()
+                
+                ZStack {
+                    ForEach(vm.locations) { location in
+                        if vm.maplocation == location { // 因為它會一直迴圈全部資料，會導致陰影很重，所以需要判斷當下所選的位置才會顯示
+                            LocationPreviewView(location: location)
+                                .shadow(color: Color.black.opacity(0.3), radius: 20)
+                                .padding()
+                                .transition(.asymmetric(
+                                    insertion: .move(edge: .trailing),
+                                    removal: .move(edge: .leading)))// 轉換效果
+                        }
+                    }
+                }
             }
         }
         
