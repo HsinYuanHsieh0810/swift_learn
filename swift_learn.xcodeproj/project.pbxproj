@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C1F87092B0267C100907EEE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1C5CEEFF2B020F1000075237 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		1C72B8E22AFAC93300124D96 /* swift_learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C72B8E52AFAC93300124D96 /* swift_learnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_learnApp.swift; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 		1C72B8D92AFAC93300124D96 = {
 			isa = PBXGroup;
 			children = (
+				1C1F87092B0267C100907EEE /* README.md */,
 				1C72B8E42AFAC93300124D96 /* swift_learn */,
 				1C72B8F52AFAC93400124D96 /* swift_learnTests */,
 				1C72B8FF2AFAC93400124D96 /* swift_learnUITests */,
