@@ -30,6 +30,9 @@ class LocationsViewModel: ObservableObject {// ObservableObject, view可以隨�
     // 控制list顯示
     @Published var showLocationsList: Bool = false
     
+    // Show location detail via sheet
+    @Published var sheetLocation: Location? = nil
+    
     
     init(){
         let locations = LocationsDataService.locations

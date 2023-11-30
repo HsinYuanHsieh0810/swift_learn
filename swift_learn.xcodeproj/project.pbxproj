@@ -21,6 +21,7 @@
 		1C72B91B2AFBD14E00124D96 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B91A2AFBD14E00124D96 /* LocationsView.swift */; };
 		1C72B91D2AFD43A000124D96 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B91C2AFD43A000124D96 /* LocationsViewModel.swift */; };
 		1C72B9242AFF6A3F00124D96 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C72B9232AFF6A3F00124D96 /* LocationsListView.swift */; };
+		1CBB0EAC2B16202A00EB8F89 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB0EAB2B16202A00EB8F89 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		1C72B91A2AFBD14E00124D96 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		1C72B91C2AFD43A000124D96 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		1C72B9232AFF6A3F00124D96 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		1CBB0EAB2B16202A00EB8F89 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				1C72B91A2AFBD14E00124D96 /* LocationsView.swift */,
 				1C4FD9D22B02B12F00B522A3 /* LocationMapAnnotation.swift */,
 				1C72B9232AFF6A3F00124D96 /* LocationsListView.swift */,
+				1CBB0EAB2B16202A00EB8F89 /* LocationDetailView.swift */,
 				1C5CEEFF2B020F1000075237 /* LocationPreviewView.swift */,
 			);
 			path = View;
@@ -320,6 +323,7 @@
 				1C4FD9D32B02B12F00B522A3 /* LocationMapAnnotation.swift in Sources */,
 				1C72B91B2AFBD14E00124D96 /* LocationsView.swift in Sources */,
 				1C72B9152AFBC10000124D96 /* Location.swift in Sources */,
+				1CBB0EAC2B16202A00EB8F89 /* LocationDetailView.swift in Sources */,
 				1C72B8E62AFAC93300124D96 /* swift_learnApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
